@@ -1,0 +1,43 @@
+#meuFooter {
+    background-color:  #41094d;
+    color:  #ffffff;
+    padding: 20px 0;
+    text-align: center;
+    border-top: 2px solid #ffffff;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .redesSociais {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .redesSociais li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .redesSociais a {
+    color: #ffffff;
+    font-size: 20px;
+  }
+
+  .redesSociais a:hover {
+    color: #8f50c2;
+    transform: scale(1.1);
+  }
+  
+  
+  .redesSociais i {
+    transition: color 0.3s;
+  }
+  
+  .redesSociais li:hover i {
+    color: #ddd;
+  }
+  

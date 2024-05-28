@@ -1,0 +1,67 @@
+.addUser{
+    width: 25%;
+    margin: 50px auto;
+    background-color: white;
+    padding: 40px  ;
+    border-radius: 10px;
+    box-shadow: 1px 1px 8px rgba(0,0,0,0.5);
+}
+
+body{
+    background-color: #5d066fc0;
+}
+
+.addUserForm .inputGroup{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+}
+
+
+.addUserForm .inputGroup label{
+    margin-top: 10px;
+}
+
+.addUserForm .inputGroup input{
+    padding: 10px;
+    margin-top: 5px;
+}
+.inputGroup button{
+    margin-top: 10px;
+    background-color: #5e066f;
+    color: white;
+
+}
+.inputGroup button:hover{
+    margin-top: 10px;
+    background-color: #722983;
+    color: white;
+
+}
+
+.addUser h3{
+    text-align: center;
+    font-weight: bold;
+    color: #5e066f;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+}
+
+.login{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.login .btn{
+    width: 50%;
+    background-color: #5e066f;
+    color: white;
+
+}
+
+.login .btn:hover{
+    width: 50%;
+    background-color: #722983;
+    
+
+}

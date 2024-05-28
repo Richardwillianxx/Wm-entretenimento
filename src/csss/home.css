@@ -1,0 +1,216 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .faixa1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 83vh;
+    background-color: #5e066f;
+  
+  }
+  
+  .faixa2 {
+    display: flex;
+    width: 100%;
+    height: 70vh;
+    background-color: #000000;
+    z-index: 0;
+  }
+  
+  .central2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  
+  }
+  
+  
+  
+  .faixa3 {
+    display: flex;
+    width: 100%;
+    height: 68vh;
+    background-color: #5e066f;
+    z-index: 0;
+  
+  }
+  
+  .faixa4 {
+    display: flex;
+    width: 100%;
+    height: 68vh;
+    background-color: #000000;
+  
+  }
+  
+  
+  .faixa1-Centro {
+    z-index: 100;
+    width: 80%;
+    height: 66vh;
+    background-color: #000000;
+    box-shadow: 10px 10px 30px 30px rgba(0, 0, 0, 0.6);
+    margin-bottom: 3vh;
+  }
+  
+  .centroFaixa2 {   
+    width: 80%;
+    height: 46vh;
+  
+    z-index: 50;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  
+  
+  
+  
+  .faixa2-1 {
+    width: 33.3%;
+    background-color: #ffffff;
+    height: 100%;
+    border: rgb(255, 255, 255) 2px 2px 2px 2px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 7%;
+    margin-right: 3vh;
+  }
+  
+  .faixa2-2 {
+    width: 33.3%;
+    background-color: #ffffff;
+    height: 100%;
+    border: rgb(255, 255, 255) 2px 2px 2px 2px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 7%;
+  }
+  
+  .faixa2-3 {
+    background-color: #ffffff;
+    height: 100%;
+    width: 33.4%;
+    border: rgb(255, 255, 255) 2px 2px 2px 2px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 7%;
+    margin-left: 3vh;
+  
+  }
+  
+  .cardzinho {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+  
+  }
+  
+  
+  
+  .retan1 {
+  
+    z-index: 100;
+    width: 30vh;
+    height: 30vh;
+    border: rgb(0, 0, 0) 2px solid;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-color: #5e066f;
+    border-radius: 7% 7% 0 0;
+    margin-top: 0.6vh;
+  }
+  
+  
+  .retan2 {
+    z-index: 100;
+    width: 30vh;
+    height: 12vh;
+    border: rgb(0, 0, 0) 2px solid;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #5e066f;
+    border-radius: 0 0 9% 9%;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 0.6vh;
+  }
+  
+  
+  
+  .topicos {
+    width: 25vh;
+    height: auto;
+  }
+  
+  .retanbook {
+    width: 35vh;
+    height: auto;
+  }
+  
+  
+  .faixa1 img {
+    height: 68vh;
+  
+  }
+  
+  .NomesTitulos{
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 0;
+    
+    width: 81.1%;
+    
+  }
+  
+  
+  
+  .tudo {
+    background-color: #5e066f;
+  
+  }
+  
+  .cartaz {
+    background-color: #ffffff;
+    border: #ffffff 6px solid;
+    color: #000000;
+    width: 32vh;
+    height: 55vh;
+  }
+  
+  .imagemCartaz {
+    width: 100%;
+    height: 85%;
+  }
+  
+  .textoCartaz {
+    border: blue 2px solid;
+    width: 100%;
+    height: 15%;
+  }
+  
+  .imagemCartaz img {
+    width: 100%;
+    height: 100%;
+  }
