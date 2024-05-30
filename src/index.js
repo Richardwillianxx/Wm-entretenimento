@@ -12,6 +12,10 @@ import NavBarComponent from './components/NavBarComponent';
 import LoginComponent from './components/LoginComponent';
 import CadastroComponent from './components/CadastroComponent';
 import Teste from './components/testeComponent';
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import FilmesPage from './pages/FilmesPage';
+import LivrosPage from './pages/BookPage';
 
 
 const router = createBrowserRouter([
@@ -35,7 +39,16 @@ const router = createBrowserRouter([
     path: "/teste",
     element: <Teste/>,
   },
+  {
+    path: "/filmes",
+    element: <FilmesPage/>,
+  },
+  {
+    path: "/livros",
+    element: <LivrosPage/>,
+  },
  
+
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(

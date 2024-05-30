@@ -2,7 +2,7 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 import '../csss/teste.css';
 import Carousel from 'react-bootstrap/Carousel';
-import { Button,Card,Col,Row } from 'react-bootstrap';
+import { Col,Row } from 'react-bootstrap';
 
 
 function Teste() {
