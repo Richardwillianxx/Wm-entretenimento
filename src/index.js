@@ -12,8 +12,6 @@ import NavBarComponent from './components/NavBarComponent';
 import LoginComponent from './components/LoginComponent';
 import CadastroComponent from './components/CadastroComponent';
 import Teste from './components/testeComponent';
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
 import FilmesPage from './pages/FilmesPage';
 import LivrosPage from './pages/BookPage';
 
@@ -21,7 +19,7 @@ import LivrosPage from './pages/BookPage';
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <div>Hello world!</div>,
+    element: <HomePage/>,
   },
   {
     path: "/home",
@@ -34,10 +32,6 @@ const router = createBrowserRouter([
   {
     path: "/cadastrar",
     element: <CadastroComponent/>,
-  },
-  {
-    path: "/teste",
-    element: <Teste/>,
   },
   {
     path: "/filmes",

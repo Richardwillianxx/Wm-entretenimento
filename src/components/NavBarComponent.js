@@ -23,7 +23,6 @@ function NavBarComponent() {
           <Nav.Link href="/favoritos" className='navbarzinha'>Favoritos</Nav.Link>
           <Nav.Link href="/login" className='navbarzinha'>Login</Nav.Link>
           <Nav.Link href="/cadastrar" className='navbarzinha'>cadastrar</Nav.Link>
-          <Nav.Link href="/teste" className='navbarzinha'>Teste</Nav.Link>
           
         </Nav>
       </Navbar.Collapse>
