@@ -11,9 +11,9 @@ import HomePage from './pages/HomePage';
 import NavBarComponent from './components/NavBarComponent';
 import LoginComponent from './components/LoginComponent';
 import CadastroComponent from './components/CadastroComponent';
-import Teste from './components/testeComponent';
 import FilmesPage from './pages/FilmesPage';
 import LivrosPage from './pages/BookPage';
+import InfoPage from './pages/InfoPage';
 
 
 const router = createBrowserRouter([
@@ -40,6 +40,10 @@ const router = createBrowserRouter([
   {
     path: "/livros",
     element: <LivrosPage/>,
+  },
+  {
+    path: "/informacoes",
+    element: <InfoPage/>,
   },
  
 

@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+  .tudoaqui{
+    color: white;
+    margin-top: 4vh; 
+    width: 100%;
+    height: 80vh;
+    /* border: 1px solid white; */
+
+}
+
+
+
+.faixa1{
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 46vh;
+
+}
+
+.img{
+    border-radius: 15px;
+    width: 20%;
+    height: 45vh;
+    margin: 15px 0 0 15px;
+    justify-content: start;
+    
+}
+
+.img img{
+    width: 100%;
+    height: 100%;
+    margin-top: 0;
+    border-radius: 15px;
+    /* border: 1px solid white; */
+
+}
+
+.segurafaixaOne{
+    border: 1px solid rgb(3, 48, 54);
+    width: 80%;
+    height: 100%;
+}
+
+.faixaone{
+    /* border: 1px solid rgb(0, 225, 255); */
+    width: 100%;
+    height: 50%;
+}
+
+.sinopse{
+    padding: 10px;
+    width: 40%;
+    height: 100%;
+    /* border: 1px solid white; */
+    text-align: justify;
+}
+
+.botoes-especiais {
+    width: 10vh;
+    height: 5vh;
+    border: white 1px solid ;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #1c8b57; 
+    /* color: #fff;  */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    gap: 10px;
+  }
+ 
+  

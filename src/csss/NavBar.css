@@ -17,12 +17,20 @@
 }
 .navbarzinhaLogo {
     color: #ffffff;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
+    display: flex;
 }
 
-.navbarzinhaLogo:hover {
-    color: #b226f3;
+.navbarzinhaLogo p {
+    color: #ffffff;
     display: flex;
-    scale: 1.03;
-    
+    margin-top: 1.6vh;
+}
+
+
+ img{
+ width: 8vh;
+ height: 3.5vh;
+ margin-top: 1.2vh; 
+
 }

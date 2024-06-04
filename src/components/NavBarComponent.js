@@ -2,7 +2,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import '../csss/NavBar.css';
-
+import logo from '../image/logo.jpg'
 
 
 function NavBarComponent() {
@@ -11,7 +11,7 @@ function NavBarComponent() {
      <Navbar bg="dark" data-bs-theme="dark" className='navGeral'>
     <Container >
 
-      <Navbar.Brand href="/home" className='navbarzinhaLogo'>WM entretenimento</Navbar.Brand>
+      <Navbar.Brand href="/home" className='navbarzinhaLogo'><img src={logo} className='logo'/><p>Entretenimento</p> </Navbar.Brand>
 
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
@@ -23,6 +23,7 @@ function NavBarComponent() {
           <Nav.Link href="/favoritos" className='navbarzinha'>Favoritos</Nav.Link>
           <Nav.Link href="/login" className='navbarzinha'>Login</Nav.Link>
           <Nav.Link href="/cadastrar" className='navbarzinha'>cadastrar</Nav.Link>
+          <Nav.Link href="/informacoes" className='navbarzinha'>fuiweafnirue</Nav.Link>
           
         </Nav>
       </Navbar.Collapse>
