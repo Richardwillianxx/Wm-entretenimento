@@ -17,6 +17,7 @@ function InfoPage() {
     imagens: []
   });
 
+  
 
   useEffect(() => {
 
@@ -40,43 +41,51 @@ function InfoPage() {
   //   const novaURLDaImagem = {data.imagens.url};
   //   document.body.style.backgroundImage = `url('${novaURLDaImagem}')`;
 
-
-
-  return (
-    <Container className="custom-container">
  {/* { {data.imagens.map((imagem) => (
               <img src={imagem.url} />
             ))} } */}
-      <div className="tudoaqui">
-        <div className="faixa1">
-          <div className="img">
-              <img src={data.url_thumbnail}/>
-          </div>
 
 
-          <div className="segurafaixaOne">
-            <div className="faixaone">
-                <div className="botoes-especiais">{data.qtd_favoritos} ❤️</div>
-                <div className="botoes-especiais">{data.categoria} </div>
-                
-            </div>
-            <div className="faixaone">
-              <div className="sinopse">
-                  {data.sinopse}
+          
+  return (
+    <Container className="custom-container principal">
+
+
+      <div className="pagina">
+        <div className="faix1">
+            <div className="img">
+                  <img src={data.url_thumbnail}/>
               </div>
+            <div className="img2">
+
+              <div className="para2">
+                 <p> {data.titulo} </p>
+              </div>
+              <div className="para1">
+                 <p>Assistir {data.titulo} Online  <br></br>
+                 Duração : {data.qtd_valor} minutos <br></br>
+                 Categoria : {data.categoria}   </p>
+              </div>
+             <div className="para4">
+                     <div className="botoes-especiais">{data.qtd_favoritos} ❤️</div>
+                     
+             </div>
+           
+                  <div className="para3">
+                    <p> {data.sinopse} </p>
+                  </div>
               
             </div>
+            <div className="img3">
+              
+              </div>
+        </div>
+        <div className="faix2">
+          
           </div>
-
-        </div>
-       
-        <div className="sinopse">
-
-        </div>
-        <div className="favoritar">
-
-        </div>
+         
       </div>
+
 
 
     </Container>

@@ -1,35 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
 
 * {
     margin: 0;
     padding: 0;
   }
 
-  .tudoaqui{
-    color: white;
-    margin-top: 4vh; 
-    width: 100%;
-    height: 80vh;
-    /* border: 1px solid white; */
-
-}
-
-
-
-.faixa1{
-    /* border: 1px solid red; */
-    width: 100%;
-    height: 46vh;
-
-}
 
 .img{
     border-radius: 15px;
-    width: 20%;
-    height: 45vh;
-    margin: 15px 0 0 15px;
+    width: 18%;
+    height: 100%;
     justify-content: start;
-    
+} 
+
+.img2{
+
+    width: 40%;
+    height: 100%;
+}
+
+.img3{
+    width:40%;
+    height: 100%;
+
 }
 
 .img img{
@@ -37,21 +33,56 @@
     height: 100%;
     margin-top: 0;
     border-radius: 15px;
+    border: 1px solid rgb(0, 0, 0);
+    box-shadow: 20px 20px 60px rgba(0, 0, 0, 0.7);
     /* border: 1px solid white; */
 
 }
 
-.segurafaixaOne{
-    border: 1px solid rgb(3, 48, 54);
-    width: 80%;
-    height: 100%;
+
+.para1{
+    width: 100%;
+    height: 17%;
+    color: rgba(255, 255, 255, 0.785);
+    padding-left: 1vh  ;
+    margin-top: -15px;
+    font-size: 16px;
 }
 
-.faixaone{
-    /* border: 1px solid rgb(0, 225, 255); */
+.para4{
     width: 100%;
-    height: 50%;
+    height: 15%;
+    color: white;
+    padding: 1vh  1vh  0;
+    margin-top: 3px;
 }
+
+.para2{
+    width: 100%;
+    height: 10%;
+    color: rgba(255, 255, 255, 0.862);
+    font-size: 30px;
+    font-weight: 900;
+    font-style: normal;
+    padding-left: 1vh;
+    padding-bottom: 7vh;
+}
+
+.para3{
+    width: auto;
+    min-width: 85%;
+    height: 60%;
+    font-size: 18px ;
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgba(255, 255, 255, 0.785);
+    text-align: justify;
+    padding: 1vh;
+}
+
+
+
 
 .sinopse{
     padding: 10px;
@@ -62,18 +93,38 @@
 }
 
 .botoes-especiais {
-    width: 10vh;
-    height: 5vh;
-    border: white 1px solid ;
-    display: inline-block;
+    width: 9vh;
+    height: 4.6vh;
     padding: 10px 20px;
-    background-color: #1c8b57; 
-    /* color: #fff;  */
-    border: none;
-    border-radius: 5px;
+    background-color: #1c8b57d5; 
+    border-radius: 7px;
     cursor: pointer;
     text-align: center;
-    gap: 10px;
+    margin-top: 0.7vh;
   }
  
+
+
+.pagina{
+
+    width: 100%;
+    height: 72vh;
+    margin-top: 7vh;
+    padding: 1vh;
+    border-radius: 7px ;
+    border: 2px solid rgba(0, 0, 0, 0.301);
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.5);
+    }
+
+.faix1{
+    width: 100%;
+    height: 60%;
+    display: flex;
+}
+
+.faix2{
+    width: 100%;
+    height: 40%;
+}
+
   
