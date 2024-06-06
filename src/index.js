@@ -13,7 +13,7 @@ import LoginComponent from './components/LoginComponent';
 import CadastroComponent from './components/CadastroComponent';
 import FilmesPage from './pages/FilmesPage';
 import LivrosPage from './pages/BookPage';
-import InfoPage from './pages/InfoPage';
+import MaisPage from './pages/mais';
 
 
 const router = createBrowserRouter([
@@ -43,7 +43,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/informacoes",
-    element: <InfoPage/>,
+    element: <MaisPage/>,
   },
  
 

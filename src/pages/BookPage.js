@@ -53,7 +53,7 @@ function LivrosPage() {
                 <div className="sliderzinhos">
                     <div className='cartazNovo' >
                     <div className='imagemCartaz'>
-                      <img src={item.url_thumbnail}/>
+                      <img className="arrumando" src={item.url_thumbnail}/>
                     </div>
                     <div className='textoCartazNovo'>
                          <p>{item.titulo}</p>
@@ -67,7 +67,7 @@ function LivrosPage() {
                 <div className="sliderzinhos">
                     <div className='cartazNovo' >
                     <div className='imagemCartaz'>
-                      <img src={item.url_thumbnail}/>
+                      <img className="arrumando" src={item.url_thumbnail}/>
                     </div>
                     <div className='textoCartazNovo'>
                         <p>{item.titulo}</p>
@@ -86,7 +86,7 @@ function LivrosPage() {
                 <div className="sliderzinhos">
                     <div className='cartazNovo' >
                     <div className='imagemCartaz'>
-                      <img src={item.url_thumbnail}/>
+                      <img className="arrumando" src={item.url_thumbnail}/>
                     </div>
                     <div className='textoCartazNovo'>
                          <p>{item.titulo}</p>
@@ -100,7 +100,7 @@ function LivrosPage() {
                 <div className="sliderzinhos">
                     <div className='cartazNovo' >
                     <div className='imagemCartaz'>
-                      <img src={item.url_thumbnail}/>
+                      <img className="arrumando"src={item.url_thumbnail}/>
                     </div>
                     <div className='textoCartazNovo'>
                         <p>{item.titulo}</p>
@@ -119,7 +119,7 @@ function LivrosPage() {
                 <div className="sliderzinhos">
                     <div className='cartazNovo' >
                     <div className='imagemCartaz'>
-                      <img src={item.url_thumbnail}/>
+                      <img className="arrumando" src={item.url_thumbnail}/>
                     </div>
                     <div className='textoCartazNovo'>
                          <p>{item.titulo}</p>
@@ -133,7 +133,7 @@ function LivrosPage() {
                 <div className="sliderzinhos">
                     <div className='cartazNovo' >
                     <div className='imagemCartaz'>
-                      <img src={item.url_thumbnail}/>
+                      <img className="arrumando"src={item.url_thumbnail}/>
                     </div>
                     <div className='textoCartazNovo'>
                         <p>{item.titulo}</p>
