@@ -6,6 +6,7 @@ import { useEffect, useState } from "react";
 import '../csss/book.css'
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import { Link } from "react-router-dom";
 
 function LivrosPage() {
   var settings = {
@@ -53,44 +54,11 @@ function LivrosPage() {
                 <div className="sliderzinhos">
                     <div className='cartazNovo' >
                     <div className='imagemCartaz'>
-                      <img className="arrumando" src={item.url_thumbnail}/>
-                    </div>
-                    <div className='textoCartazNovo'>
-                         <p>{item.titulo}</p>
-                         <a href={item.url_video} target="_blank" >Ver </a>
-                    </div>
-                   </div>
-               </div>
-            
-             ))} 
-          {data.map((item) => (
-                <div className="sliderzinhos">
-                    <div className='cartazNovo' >
-                    <div className='imagemCartaz'>
-                      <img className="arrumando" src={item.url_thumbnail}/>
+                      <img className="arrumando"src={item.url_thumbnail}/>
                     </div>
                     <div className='textoCartazNovo'>
                         <p>{item.titulo}</p>
-                        <a href={item.url_video} target="_blank" >Ver filme</a>  
-                    </div>
-                   </div>
-               </div>
-            
-             ))} 
-  
-   
-    </Slider>
-    <Slider {...settings} className="custom-slider">
-      
-      {data.map((item) => (
-                <div className="sliderzinhos">
-                    <div className='cartazNovo' >
-                    <div className='imagemCartaz'>
-                      <img className="arrumando" src={item.url_thumbnail}/>
-                    </div>
-                    <div className='textoCartazNovo'>
-                         <p>{item.titulo}</p>
-                         <a href={item.url_video} target="_blank" >Ver </a>
+                        <Link to={"/informacoesLivro/" + item.id}> Ver livro</Link>
                     </div>
                    </div>
                </div>
@@ -104,7 +72,39 @@ function LivrosPage() {
                     </div>
                     <div className='textoCartazNovo'>
                         <p>{item.titulo}</p>
-                        <a href={item.url_video} target="_blank" >Ver filme</a>  
+                        <Link to={"/informacoesLivro/" + item.id}> Ver livro</Link>
+                    </div>
+                   </div>
+               </div>
+            
+             ))} 
+   
+    </Slider>
+    <Slider {...settings} className="custom-slider">
+      
+    {data.map((item) => (
+                <div className="sliderzinhos">
+                    <div className='cartazNovo' >
+                    <div className='imagemCartaz'>
+                      <img className="arrumando"src={item.url_thumbnail}/>
+                    </div>
+                    <div className='textoCartazNovo'>
+                        <p>{item.titulo}</p>
+                        <Link to={"/informacoesLivro/" + item.id}> Ver livro</Link>
+                    </div>
+                   </div>
+               </div>
+            
+             ))} 
+             {data.map((item) => (
+                <div className="sliderzinhos">
+                    <div className='cartazNovo' >
+                    <div className='imagemCartaz'>
+                      <img className="arrumando"src={item.url_thumbnail}/>
+                    </div>
+                    <div className='textoCartazNovo'>
+                        <p>{item.titulo}</p>
+                        <Link to={"/informacoesLivro/" + item.id}> Ver livro</Link>
                     </div>
                    </div>
                </div>
@@ -115,21 +115,7 @@ function LivrosPage() {
     </Slider>
     <Slider {...settings} className="custom-slider">
       
-      {data.map((item) => (
-                <div className="sliderzinhos">
-                    <div className='cartazNovo' >
-                    <div className='imagemCartaz'>
-                      <img className="arrumando" src={item.url_thumbnail}/>
-                    </div>
-                    <div className='textoCartazNovo'>
-                         <p>{item.titulo}</p>
-                         <a href={item.url_video} target="_blank" >Ver </a>
-                    </div>
-                   </div>
-               </div>
-            
-             ))} 
-          {data.map((item) => (
+    {data.map((item) => (
                 <div className="sliderzinhos">
                     <div className='cartazNovo' >
                     <div className='imagemCartaz'>
@@ -137,7 +123,21 @@ function LivrosPage() {
                     </div>
                     <div className='textoCartazNovo'>
                         <p>{item.titulo}</p>
-                        <a href={item.url_video} target="_blank" >Ver filme</a>  
+                        <Link to={"/informacoesLivro/" + item.id}> Ver livro</Link>
+                    </div>
+                   </div>
+               </div>
+            
+             ))} 
+             {data.map((item) => (
+                <div className="sliderzinhos">
+                    <div className='cartazNovo' >
+                    <div className='imagemCartaz'>
+                      <img className="arrumando"src={item.url_thumbnail}/>
+                    </div>
+                    <div className='textoCartazNovo'>
+                        <p>{item.titulo}</p>
+                        <Link to={"/informacoesLivro/" + item.id}> Ver livro</Link>
                     </div>
                    </div>
                </div>

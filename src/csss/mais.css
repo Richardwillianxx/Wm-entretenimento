@@ -141,5 +141,22 @@
     
 }
 
+.botaoVerTrailer{
+    color: aliceblue;
+    width: 100%;
+    height: 20%;
+}
+
+.botaoVerTrailer button{
+    margin-top: 1.5vh;
+    width: 18%;
+    height: 100%;
+    justify-content: center;
+    
+}
+
+a{text-decoration: none;}
+
+
 
 

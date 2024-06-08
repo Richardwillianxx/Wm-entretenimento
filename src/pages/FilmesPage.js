@@ -4,6 +4,7 @@ import { Container } from "react-bootstrap";
 import Slider from "react-slick";
 import axios from "axios";
 import { useEffect, useState } from "react";
+import { Link } from 'react-router-dom';
 
 
 
@@ -43,7 +44,6 @@ function FilmesPage() {
 
 
 
-
   return (
     <Container className="custom-container">
       <div className='agatres'>
@@ -58,22 +58,22 @@ function FilmesPage() {
                     </div>
                     <div className='textoCartazNovo'>
                       <p>{item.titulo}</p>
-                      <a href={item.url_video} target="_blank" >Ver filme</a>
+                          <Link to={"/informacoes/" + item.id}> Ver filme</Link>
                      </div>
                    </div>
                </div>
             
              ))} 
-          {data.map((item) => (
+               {data.map((item) => (
                 <div className="sliderzinhos">
                     <div className='cartazNovo' >
                     <div className='imagemCartaz'>
-                      <img className="arrumando" src={item.url_thumbnail}/>
+                      <img className="arrumando"src={item.url_thumbnail}/>
                     </div>
                     <div className='textoCartazNovo'>
-                    <p>{item.titulo}</p>
-                    <a href={item.url_video} target="_blank" >Ver filme</a>
-                    </div>
+                      <p>{item.titulo}</p>
+                          <Link to={"/informacoes/" + item.id}> Ver filme</Link>
+                     </div>
                    </div>
                </div>
             
@@ -83,30 +83,30 @@ function FilmesPage() {
     </Slider>
     <Slider {...settings} className="custom-slider">
       
-      {data.map((item) => (
+    {data.map((item) => (
                 <div className="sliderzinhos">
                     <div className='cartazNovo' >
                     <div className='imagemCartaz'>
                       <img className="arrumando"src={item.url_thumbnail}/>
                     </div>
                     <div className='textoCartazNovo'>
-                    <p>{item.titulo}</p>
-                    <a href={item.url_video} target="_blank" >Ver filme</a>
-                    </div>
+                      <p>{item.titulo}</p>
+                          <Link to={"/informacoes/" + item.id}> Ver filme</Link>
+                     </div>
                    </div>
                </div>
             
              ))} 
-          {data.map((item) => (
+               {data.map((item) => (
                 <div className="sliderzinhos">
                     <div className='cartazNovo' >
                     <div className='imagemCartaz'>
                       <img className="arrumando"src={item.url_thumbnail}/>
                     </div>
                     <div className='textoCartazNovo'>
-                    <p>{item.titulo}</p>
-                    <a href={item.url_video} target="_blank" >Ver filme</a>
-                    </div>
+                      <p>{item.titulo}</p>
+                          <Link to={"/informacoes/" + item.id}> Ver filme</Link>
+                     </div>
                    </div>
                </div>
             
@@ -116,30 +116,31 @@ function FilmesPage() {
     </Slider>
     <Slider {...settings} className="custom-slider">
       
-      {data.map((item) => (
+              {data.map((item) => (
+                          <div className="sliderzinhos">
+                              <div className='cartazNovo' >
+                              <div className='imagemCartaz'>
+                                <img className="arrumando"src={item.url_thumbnail}/>
+                              </div>
+                              <div className='textoCartazNovo'>
+                                <p>{item.titulo}</p>
+                                    <Link to={"/informacoes/" + item.id}> Ver filme</Link>
+                              </div>
+                            </div>
+                        </div>
+                      
+                      ))} 
+
+                   {data.map((item) => (
                 <div className="sliderzinhos">
                     <div className='cartazNovo' >
                     <div className='imagemCartaz'>
                       <img className="arrumando"src={item.url_thumbnail}/>
                     </div>
                     <div className='textoCartazNovo'>
-                         <p>{item.titulo}</p>
-                         <a href={item.url_video} target="_blank" >Ver filme</a>
-                    </div>
-                   </div>
-               </div>
-            
-             ))} 
-          {data.map((item) => (
-                <div className="sliderzinhos">
-                    <div className='cartazNovo' >
-                    <div className='imagemCartaz'>
-                      <img className="arrumando" src={item.url_thumbnail}/>
-                    </div>
-                    <div className='textoCartazNovo'>
-                        <p>{item.titulo}</p>
-                        <a href={item.url_video} target="_blank" >Ver filme</a>  
-                    </div>
+                      <p>{item.titulo}</p>
+                          <Link to={"/informacoes/" + item.id}> Ver filme</Link>
+                     </div>
                    </div>
                </div>
             

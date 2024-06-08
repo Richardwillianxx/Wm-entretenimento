@@ -33,6 +33,8 @@ return(
                                                 <img src={toy}/>
                                             </div>
                                             <div className='textoCartaz'>
+                                                 <div className='texto1'> <p className='nomeProvisório'>Toy story 4</p></div>
+                                                 <div className='texto2'><p className='linkProvisório'> Ver Filme</p></div>
 
                                             </div>
                                      
@@ -44,6 +46,9 @@ return(
                                                 <img src={vingadores}/>
                                             </div>
                                             <div className='textoCartaz'>
+                                                 <div className='texto1'> <p className='nomeProvisório'>Avengers end game</p></div>
+                                                 <div className='texto2'><p className='linkProvisório'> Ver Filme</p></div>
+
                                                    
                                             </div>
                                      
@@ -55,6 +60,9 @@ return(
                                                  <img src={maze}/> 
                                             </div>
                                             <div className='textoCartaz'>
+                                                 <div className='texto1'> <p className='nomeProvisório'>Maze runner</p></div>
+                                                 <div className='texto2'><p className='linkProvisório'> Ver Filme</p></div>
+
                                                 
                                             </div>
                                      
@@ -66,6 +74,9 @@ return(
                                                 <img src={garotas}/> 
                                             </div>
                                             <div className='textoCartaz'>
+                                                 <div className='texto1'> <p className='nomeProvisório'>Meninas não choram</p></div>
+                                                 <div className='texto2'><p className='linkProvisório'> Ver Filme</p></div>
+
                                                 
                                             </div>
                                      
@@ -78,6 +89,9 @@ return(
                                             </div>
                                             <div className='textoCartaz'>
                                                 
+                                                 <div className='texto1'> <p className='nomeProvisório arrumandoTextoCartaz'>SW: The rise of Skywalker</p></div>
+                                                 <div className='texto2'><p className='linkProvisório'> Ver Filme</p></div>
+
                                             </div>
                                      
                                         </div>
@@ -93,7 +107,9 @@ return(
                                                 <img src={rush}/>
                                             </div>
                                             <div className='textoCartaz'>
-                                                
+                                                 <div className='texto1'> <p className='nomeProvisório'>A hora do rush</p></div>
+                                                 <div className='texto2'><p className='linkProvisório'> Ver Filme</p></div>
+
                                             </div>
                                      
                                         </div>
@@ -104,7 +120,9 @@ return(
                                                  <img src={galaxia}/>
                                             </div>
                                             <div className='textoCartaz'>
-                                                
+                                                <div className='texto1'> <p className='nomeProvisório'>Guardiões da galáxia</p></div>
+                                                 <div className='texto2'><p className='linkProvisório'> Ver Filme</p></div>
+
                                             </div>
                                      
                                         </div>
@@ -115,7 +133,8 @@ return(
                                                 <img src={panda}/>      
                                             </div>
                                             <div className='textoCartaz'>
-                                                    
+                                                 <div className='texto1'> <p className='nomeProvisório'>Kung fu panda 3</p></div>
+                                                 <div className='texto2'><p className='linkProvisório'> Ver Filme</p></div>
                                             </div>
                                      
                                         </div>
@@ -126,7 +145,8 @@ return(
                                                 <img src={agua}/>
                                             </div>
                                             <div className='textoCartaz'>
-                                                
+                                                    <div className='texto1'> <p className='nomeProvisório'>Elementos</p></div>
+                                                    <div className='texto2'><p className='linkProvisório'> Ver Filme</p></div>
                                             </div>
                                      
                                         </div>
@@ -137,7 +157,8 @@ return(
                                                 <img src={rio}/>
                                             </div>
                                             <div className='textoCartaz'>
-                                                
+                                                    <div className='texto1'> <p className='nomeProvisório'>Rio 2</p></div>
+                                                    <div className='texto2'><p className='linkProvisório'> Ver Filme</p></div>
                                             </div>
                                      
                                         </div>

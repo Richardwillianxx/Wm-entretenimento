@@ -14,6 +14,7 @@ import CadastroComponent from './components/CadastroComponent';
 import FilmesPage from './pages/FilmesPage';
 import LivrosPage from './pages/BookPage';
 import MaisPage from './pages/mais';
+import MaisPageLivro from './pages/maisLivro';
 
 
 const router = createBrowserRouter([
@@ -42,9 +43,15 @@ const router = createBrowserRouter([
     element: <LivrosPage/>,
   },
   {
-    path: "/informacoes",
+    path: "/informacoes/:id",
     element: <MaisPage/>,
   },
+  {
+    path: "/informacoesLivro/:id",
+    element: <MaisPageLivro/>,
+  },
+
+  
  
 
 ]);

@@ -6,7 +6,7 @@
   import '../csss/buttonComponent.css'
 
 
-  function MaisPage() {
+  function MaisPageLivro() {
     var settings = {
       dots: true,
       infinite: true,
@@ -117,7 +117,7 @@
                       <div className="botaoVerTrailer">
                          <Link to={data.url_video} target="blank_"> 
                           <button className="cssbuttons-io-button" >
-                          Ver trailer 
+                          Ver video Sobre 
                           <div className="icon">
                             <svg
                               height="24"
@@ -143,4 +143,4 @@
     );
 
 
-  } export default MaisPage;
+  } export default MaisPageLivro;

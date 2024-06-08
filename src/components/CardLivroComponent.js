@@ -29,7 +29,9 @@ return(
                                                <img src={acaba}/>
                                             </div>
                                             <div className='textoCartaz'>
-
+                                                <div className='texto1'> <p className='nomeProvisório'> É assim que acaba</p></div>
+                                                <div className='texto2'><p className='linkProvisório'> Ver livro</p></div>
+                                               
                                             </div>
                                      
                                         </div>
@@ -40,7 +42,8 @@ return(
                                                <img src={amor}/>
                                             </div>
                                             <div className='textoCartaz'>
-                                                
+                                                    <div className='texto1'> <p className='nomeProvisório'> Amor & gelato</p></div>
+                                                    <div className='texto2'><p className='linkProvisório'> Ver livro</p></div>
                                             </div>
                                      
                                         </div>
@@ -51,7 +54,8 @@ return(
                                                 <img src={george}/>  
                                             </div>
                                             <div className='textoCartaz'>
-                                                
+                                                 <div className='texto1'> <p className='nomeProvisório'> 1984</p></div>
+                                                 <div className='texto2'><p className='linkProvisório'> Ver livro</p></div>
                                             </div>
                                      
                                         </div>
@@ -62,7 +66,8 @@ return(
                                                <img src={pequeno}/>   
                                             </div>
                                             <div className='textoCartaz'>
-                                                
+                                                 <div className='texto1'> <p className='nomeProvisório'> O pequeno príncipe</p></div>
+                                                 <div className='texto2'><p className='linkProvisório'> Ver livro</p></div>
                                             </div>
                                      
                                         </div>
@@ -72,8 +77,9 @@ return(
                                             <div className='imagemCartaz'>
                                                  <img src={rico}/>
                                             </div>
-                                            <div className='textoCartaz'>
-                                                
+                                            <div className='textoCartaz '>
+                                                    <div className='texto1'> <p className='nomeProvisório arrumandoTextoCartaz'> O homem mais rico da babilônia</p></div>
+                                                    <div className='texto2'><p className='linkProvisório'> Ver livro</p></div>
                                             </div>
                                      
                                         </div>
@@ -89,7 +95,8 @@ return(
                                                <img src={star}/>
                                             </div>
                                             <div className='textoCartaz'>
-                                                
+                                                 <div className='texto1'> <p className='nomeProvisório'> A culpa é das estrelas</p></div>
+                                                 <div className='texto2'><p className='linkProvisório'> Ver livro</p></div>
                                             </div>
                                      
                                         </div>
@@ -100,7 +107,8 @@ return(
                                                 <img src={habitos}/>
                                             </div>
                                             <div className='textoCartaz'>
-                                                
+                                                 <div className='texto1'> <p className='nomeProvisório'> 7 hábitos eficazes</p></div>
+                                                 <div className='texto2'><p className='linkProvisório'> Ver livro</p></div>
                                             </div>
                                      
                                         </div>
@@ -111,7 +119,8 @@ return(
                                                 <img src={pep}/>
                                             </div>
                                             <div className='textoCartaz'>
-                                                    
+                                                 <div className='texto1'> <p className='nomeProvisório'>Guardiola</p></div>
+                                                 <div className='texto2'><p className='linkProvisório'> Ver livro</p></div>
                                             </div>
                                      
                                         </div>
@@ -122,7 +131,8 @@ return(
                                                <img src={avesso}/>
                                             </div>
                                             <div className='textoCartaz'>
-                                                
+                                                 <div className='texto1'> <p className='nomeProvisório'> O avesso da pele  </p></div>
+                                                  <div className='texto2'><p className='linkProvisório'> Ver livro</p></div>
                                             </div>
                                      
                                         </div>
@@ -133,7 +143,8 @@ return(
                                                      <img src={pedra}/>
                                             </div>
                                             <div className='textoCartaz'>
-                                                
+                                                 <div className='texto1'> <p className='nomeProvisório'> HP : Pedra filosofal</p></div>
+                                                 <div className='texto2'><p className='linkProvisório'> Ver livro</p></div>
                                             </div>
                                      
                                         </div>

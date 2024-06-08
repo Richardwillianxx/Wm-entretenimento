@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Jersey+25+Charted&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -192,10 +193,11 @@
   
   .cartaz {
     background-color: #ffffff;
-    border: #ffffff 6px solid;
-    color: #000000;
+    border: #ffffff 14px solid;
+    color: #353333;
     width: 32vh;
     height: 55vh;
+    border-radius: 5px;
   }
   
   .imagemCartaz {
@@ -204,7 +206,6 @@
   }
   
   .textoCartaz {
-    border: blue 2px solid;
     width: 100%;
     height: 15%;
   }
@@ -212,4 +213,39 @@
   .imagemCartaz img {
     width: 100%;
     height: 100%;
+  }
+
+  .nomeProvisório{
+    text-align: center;
+    margin-top: 10px;
+    font-style: normal;
+    font-size: 3vh;
+    font-family: "Jersey 25 Charted", sans-serif;
+    font-weight: 400;
+  }
+
+  .linkProvisório{
+    text-align: end;
+    color: #5457f7;
+    margin-top: -15px;
+    margin-right: 5px;
+    font-weight: 500;
+  }
+  .linkProvisório:hover{
+  text-decoration: underline;
+  }
+ 
+  .texto1{
+    width: 100%;
+    height: 70%;
+  }
+
+  .texto2{
+    width: 100%;
+    height: 30%;
+  }
+
+  .arrumandoTextoCartaz{
+   font-size: 2.4vh;
+   font-weight: 500;
   }
